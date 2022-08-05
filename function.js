@@ -44,7 +44,7 @@ const getMedia = () => {
  
 
   if (url) {
-    document.write(url);
+    //document.write(url);
     fetch(url).
     then(r => r.text()).
     then(r => {
